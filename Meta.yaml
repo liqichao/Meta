@@ -1,0 +1,66 @@
+payload:
+  # > Meta API and Services
+  - DOMAIN-KEYWORD,facebook.com
+  - DOMAIN-KEYWORD,instagram.com
+  - DOMAIN-KEYWORD,meta.com
+  - DOMAIN-KEYWORD,fbcdn.net
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,messenger.com
+  - DOMAIN-SUFFIX,oculus.com
+  - DOMAIN-SUFFIX,workplace.com
+
+  # > Meta IP Ranges
+  - IP-CIDR,31.13.24.0/22,no-resolve
+  - IP-CIDR,66.220.144.0/20,no-resolve
+  - IP-CIDR,69.171.250.0/24,no-resolve
+  - IP-CIDR,157.240.0.0/16,no-resolve
+  - IP-CIDR,173.252.64.0/18,no-resolve
+  - IP-CIDR,204.15.20.0/22,no-resolve
+  - IP-CIDR,31.13.0.0/16,no-resolve
+
+  # > Meta Platforms
+  - DOMAIN-KEYWORD,workplace
+  - DOMAIN-SUFFIX,workplace.com
+  - DOMAIN-SUFFIX,portal.facebook.com
+  - DOMAIN-SUFFIX,oculus.com
+
+  # > Facebook Messenger
+  - DOMAIN-SUFFIX,messenger.com
+  - DOMAIN-KEYWORD,messenger
+  
+  # > Instagram
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-KEYWORD,instagram
+  
+  # > Oculus (Meta's VR/AR platform)
+  - DOMAIN-SUFFIX,oculus.com
+  - DOMAIN-KEYWORD,oculus
+  
+  # > Meta Ads & Marketing
+  - DOMAIN-SUFFIX,ads.facebook.com
+  - DOMAIN-SUFFIX,ad.doubleclick.net
+  - DOMAIN-KEYWORD,facebookads
+  - DOMAIN-KEYWORD,fb_ad
+
+  # > Meta-owned domains for various apps/services
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fbcusercontent.com
+
+  # > Meta-owned platforms for virtual reality
+  - DOMAIN-SUFFIX,vr.com
+  - DOMAIN-SUFFIX,metaquest.com
+
+  # > Meta's external services like CDN
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,akamai.net
+  - DOMAIN-SUFFIX,cdninstagram.com
+
+  # > Meta Developer and OAuth services
+  - DOMAIN-SUFFIX,developers.facebook.com
+  - DOMAIN-SUFFIX,oauth.facebook.com
+  - DOMAIN-SUFFIX,login.facebook.com
+  - DOMAIN-SUFFIX,graph.facebook.com
