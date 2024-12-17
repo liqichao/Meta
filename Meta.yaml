@@ -45,6 +45,7 @@ payload:
   - DOMAIN-SUFFIX,ad.doubleclick.net
   - DOMAIN-KEYWORD,facebookads
   - DOMAIN-KEYWORD,fb_ad
+  - DOMAIN-SUFFIX,fbthirdpartypixel.com
 
   # > Meta-owned domains for various apps/services
   - DOMAIN-SUFFIX,fb.com
